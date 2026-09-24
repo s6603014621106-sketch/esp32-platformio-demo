@@ -10,7 +10,7 @@ void setup() {
 void loop() {
   digitalWrite(LED_PIN, HIGH);  // เปิด LED
   Serial.println("LED ON");
-  delay(2000);                   // รอ 0.5 วินาที
+  delay(500);                   // รอ 0.5 วินาที
   digitalWrite(LED_PIN, LOW);   // ปิด LED
   Serial.println("LED OFF");
   delay(500);
